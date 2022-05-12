@@ -42,7 +42,17 @@ img#logo {
    width: 100%;
 }
 
+body > nav#horizontal {
+   column-span: 4;
+}
 
+body > footer {
+   column-span: 4;
+}
+
+body > aside {
+   column-span: 2;
+}
 /* Row Styles */
 
 
