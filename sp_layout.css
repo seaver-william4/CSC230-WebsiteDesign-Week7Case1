@@ -28,6 +28,9 @@ body {
    min-height: 100%;
 }
 
+body > img {
+   display: block;
+}
 /* Row Styles */
 
 
