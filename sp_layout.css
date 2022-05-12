@@ -28,16 +28,20 @@ body {
    min-height: 100%;
 }
 
+body {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+
 img {
    display: block;
 }
 
-/* CSS Grid Styles */
-
-body {
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+img#logo {
+   column-span: 3;
+   width: 100%;
 }
+
 
 /* Row Styles */
 
