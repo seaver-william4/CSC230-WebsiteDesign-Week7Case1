@@ -28,9 +28,17 @@ body {
    min-height: 100%;
 }
 
-body > img {
+img {
    display: block;
 }
+
+/* CSS Grid Styles */
+
+body {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 /* Row Styles */
 
 
