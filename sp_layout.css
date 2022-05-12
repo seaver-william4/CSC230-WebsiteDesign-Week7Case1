@@ -68,7 +68,12 @@ body > aside {
 
 /* Horizontal Navigation List Styles */
 
-
+body > header > nav#horizontal > li {
+   display: block;
+   width: 12.5%;
+   float: left;
+}
+}
 
 
 /* Topics Styles */
